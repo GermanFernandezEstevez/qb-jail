@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Carcel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <h1>Encarcelar Jugador</h1>
+        <form id="jailForm">
+            <label for="playerId">ID del Jugador:</label>
+            <input type="number" id="playerId" name="playerId" required>
+            <label for="time">Tiempo (minutos):</label>
+            <input type="number" id="time" name="time" required>
+            <button type="submit">Encarcelar</button>
+        </form>
+        <button id="closeButton">Cerrar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
